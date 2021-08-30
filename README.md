@@ -12,7 +12,7 @@ Nee hiermee bedoel ik niet een ingebouwd wachtwoord opslaan systeem in de meeste
 
 ##### Genereer wachtwoorden
 
-Genereer veilige wachtwoorden vai [Passgenerator](http://passgenerator.nl/) bij het maken van een account, of het veranderen van wachtwoorden. Des te langer jou wachtwoord is des te veiliger. Na het aanmaken/ veranderen van je wachtwoord vraagt je Password vault automatisch voor het opslaan van het account met wachtwoord. Deze wachwoorden zijn alleen te zien voor jou en niet voor de makers (althans de goede Password managers, nogmaals doe je eigen onderzoek) Nu zijn je account extreem veilig en zal je niet bang hoeven te zijn om gehackt te worden!
+Genereer veilige wachtwoorden vai [Passgenerator](https://passgenerator.nl/) bij het maken van een account, of het veranderen van wachtwoorden. Des te langer jou wachtwoord is des te veiliger. Na het aanmaken/ veranderen van je wachtwoord vraagt je Password vault automatisch voor het opslaan van het account met wachtwoord. Deze wachwoorden zijn alleen te zien voor jou en niet voor de makers (althans de goede Password managers, nogmaals doe je eigen onderzoek) Nu zijn je account extreem veilig en zal je niet bang hoeven te zijn om gehackt te worden!
 
 ### English
 
@@ -27,4 +27,4 @@ No, I do not mean the build in password savers in web browsers, but apps like [L
 
 ##### Generate passwords
 
-To generate secure password head over to [Passgenerator](http://passgenerator.nl/) and generate passwords. When creating a new account or changing the password of a current account choose to the length of the password, click generate and copy and paste the password, your password vault would automaticly ask you to save the password, dont be alarmed your password vault would not see your passwords (Again, do your own research and search for save and trustworty password managers) Now your account is extra secure and can't easily be hacked.
+To generate secure password head over to [Passgenerator](https://passgenerator.nl/) and generate passwords. When creating a new account or changing the password of a current account choose to the length of the password, click generate and copy and paste the password, your password vault would automaticly ask you to save the password, dont be alarmed your password vault would not see your passwords (Again, do your own research and search for save and trustworty password managers) Now your account is extra secure and can't easily be hacked.
