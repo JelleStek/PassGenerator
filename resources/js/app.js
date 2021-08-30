@@ -1,14 +1,8 @@
 let pass = document.getElementById('pass');
 let btn = document.getElementById('btn');
-let passLength = document.getElementById('amount');
-let passLengthValue = document.getElementById('amount').value;
-let passText = document.getElementById('amountText');
-
-function showPassLength() {
-    passText.innerText = passLengthValue;
-}
-
-passLength.addEventListener('change', showPassLength)
+let tenCount = document.getElementById('ten');
+let thirtyCount = document.getElementById('thirty');
+let sixtyCount = document.getElementById('sixty');
 
 const upperLetter = "ABCDEFGHIJKLMNOPQRSTVZYX";
 const lowerLetter = "abcdefghijklmnopqrstvzyx";
@@ -27,10 +21,37 @@ function getNumbers() {
 function getSymbols() {
     return symbols[Math.floor(Math.random() * symbols.length)];
 }
+function tenCountFunction() {
+    if (tenCount.checked) {
+        return 12;
+    } else {
+        return 0;
+    }
+}
+function thirtyCountFunction() {
+    if (thirtyCount.checked) {
+        return 32;
+    } else {
+        return 0;
+    }
+}
+function sixtyCountFunction() {
+    if (sixtyCount.checked) {
+        return 64;
+    } else {
+        return 0;
+    }
+}
 
+function passLength() {
+    let count = 0;
+    
+    count += tenCountFunction() + thirtyCountFunction() + sixtyCountFunction();
+    return count;
+}
 
 function generatePass() {
-    const len = 64;
+    const len = passLength();
 
     let password = "";
 
@@ -40,7 +61,7 @@ function generatePass() {
     }
 
     pass.innerText = password;
-
+    console.log('new password generated (Do not share your passwords!)')
 }
+
 btn.addEventListener('click', generatePass);
-// console.log(generatePass())

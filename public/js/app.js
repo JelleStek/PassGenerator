@@ -9,15 +9,9 @@
 
 var pass = document.getElementById('pass');
 var btn = document.getElementById('btn');
-var passLength = document.getElementById('amount');
-var passLengthValue = document.getElementById('amount').value;
-var passText = document.getElementById('amountText');
-
-function showPassLength() {
-  passText.innerText = passLengthValue;
-}
-
-passLength.addEventListener('change', showPassLength);
+var tenCount = document.getElementById('ten');
+var thirtyCount = document.getElementById('thirty');
+var sixtyCount = document.getElementById('sixty');
 var upperLetter = "ABCDEFGHIJKLMNOPQRSTVZYX";
 var lowerLetter = "abcdefghijklmnopqrstvzyx";
 var numbers = "0123456789";
@@ -39,8 +33,38 @@ function getSymbols() {
   return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
+function tenCountFunction() {
+  if (tenCount.checked) {
+    return 12;
+  } else {
+    return 0;
+  }
+}
+
+function thirtyCountFunction() {
+  if (thirtyCount.checked) {
+    return 32;
+  } else {
+    return 0;
+  }
+}
+
+function sixtyCountFunction() {
+  if (sixtyCount.checked) {
+    return 64;
+  } else {
+    return 0;
+  }
+}
+
+function passLength() {
+  var count = 0;
+  count += tenCountFunction() + thirtyCountFunction() + sixtyCountFunction();
+  return count;
+}
+
 function generatePass() {
-  var len = 64;
+  var len = passLength();
   var password = "";
 
   for (var i = 0; i < len; i++) {
@@ -48,9 +72,10 @@ function generatePass() {
   }
 
   pass.innerText = password;
+  console.log('new password generated (Do not share your passwords!)');
 }
 
-btn.addEventListener('click', generatePass); // console.log(generatePass())
+btn.addEventListener('click', generatePass);
 
 /***/ }),
 
