@@ -9,7 +9,7 @@ body {
     background: rgb(160,68,255);
     background: linear-gradient(90deg, rgba(160,68,255,1) 0%, rgba(106,48,147,1) 100%);
     color: #fff;
-
+    transition: all .2s;
 }
 
 .container {
@@ -55,4 +55,11 @@ p.disclaimer {
 }
 .disclaimer a {
     color: #fff;
+}
+p.error-message {
+    color: red;
+    font-size: 14px;
+    height: 15px;
+    margin: 10px 0 -15px 0;
+    /*margin-bottom: -15px;*/
 }

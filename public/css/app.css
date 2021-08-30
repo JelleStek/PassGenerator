@@ -9,7 +9,11 @@ body {
     background: rgb(160,68,255);
     background: linear-gradient(90deg, rgba(160,68,255,1) 0%, rgba(106,48,147,1) 100%);
     color: #fff;
+    transition: all .2s;
+}
 
+* {
+    max-width: 100%;
 }
 
 .container {
@@ -23,10 +27,12 @@ body {
     box-shadow: 0 0 30px rgba(0,0,0,.35);
     color: #000;
     border-radius: 15px;
+    max-width: calc(100% - 30px);
 }
 
 .password {
     min-width: 400px;
+    max-width: 100%;
     width: auto;
     padding: 13px 20px;
     border: 1px solid #000;
@@ -34,6 +40,11 @@ body {
 .password p {
     padding: 0;
     margin: 0;
+}
+p.h-message {
+    color: #929292;
+    font-size: 15px;
+    margin: 0 0 10px 0;
 }
 a.btn {
     display: inline-block;
@@ -46,13 +57,25 @@ a.btn {
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .2s;
+}
+a.btn:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
 p.disclaimer {
     position: absolute;
     left: 50%;
     bottom: 20px;
     transform: translateX(-50%);
+    text-align: center;
 }
 .disclaimer a {
     color: #fff;
 }
+

@@ -21,6 +21,8 @@ function getNumbers() {
 function getSymbols() {
     return symbols[Math.floor(Math.random() * symbols.length)];
 }
+
+//calculate number of char per option
 function tenCountFunction() {
     if (tenCount.checked) {
         return 12;
@@ -43,6 +45,7 @@ function sixtyCountFunction() {
     }
 }
 
+//see length of password
 function passLength() {
     let count = 0;
     
@@ -65,3 +68,8 @@ function generatePass() {
 }
 
 btn.addEventListener('click', generatePass);
+
+
+//message to our fellow developers.
+
+console.log('Issues or questions? Contact me via Github')

@@ -31,7 +31,8 @@ function getNumbers() {
 
 function getSymbols() {
   return symbols[Math.floor(Math.random() * symbols.length)];
-}
+} //calculate number of char per option
+
 
 function tenCountFunction() {
   if (tenCount.checked) {
@@ -55,7 +56,8 @@ function sixtyCountFunction() {
   } else {
     return 0;
   }
-}
+} //see length of password
+
 
 function passLength() {
   var count = 0;
@@ -75,7 +77,9 @@ function generatePass() {
   console.log('new password generated (Do not share your passwords!)');
 }
 
-btn.addEventListener('click', generatePass);
+btn.addEventListener('click', generatePass); //message to our fellow developers.
+
+console.log('Issues or questions? Contact me via Github');
 
 /***/ }),
 
