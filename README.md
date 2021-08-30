@@ -12,7 +12,7 @@ Nee hiermee bedoel ik niet een ingebouwd wachtwoord opslaan systeem in de meeste
 
 ##### Genereer wachtwoorden
 
-Genereer veilige wachtwoorden vai [Passmanger](http://passgenerator.nl/) bij het maken van een account, of het veranderen van wachtwoorden. Des te langer jou wachtwoord is des te veiliger. Na het aanmaken/ veranderen van je wachtwoord vraagt je Password vault automatisch voor het opslaan van het account met wachtwoord. Deze wachwoorden zijn alleen te zien voor jou en niet voor de makers (althans de goede Password managers, nogmaals doe je eigen onderzoek) Nu zijn je account extreem veilig en zal je niet bang hoeven te zijn om gehackt te worden!
+Genereer veilige wachtwoorden vai [Passgenerator](http://passgenerator.nl/) bij het maken van een account, of het veranderen van wachtwoorden. Des te langer jou wachtwoord is des te veiliger. Na het aanmaken/ veranderen van je wachtwoord vraagt je Password vault automatisch voor het opslaan van het account met wachtwoord. Deze wachwoorden zijn alleen te zien voor jou en niet voor de makers (althans de goede Password managers, nogmaals doe je eigen onderzoek) Nu zijn je account extreem veilig en zal je niet bang hoeven te zijn om gehackt te worden!
 
 ### English
 
