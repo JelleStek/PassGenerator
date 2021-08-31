@@ -14,13 +14,14 @@
         <p class="h-message">Never share your passwords. Online security is important.</p>
         <div class="password">
             <p id="pass">PassGenerator</p>
+            <div id="copy"></div>
         </div>
         <a id="btn" class="btn">Generate</a>
         <div class="amount">
-            <h4>Choose length</h4>
+            <h4>Choose length of password</h4>
             <label for="12">
                 12
-                <input type="checkbox" name="12" id="ten">
+                <input type="checkbox" name="12" id="ten" checked>
             </label>
             <label for="32">
                 32

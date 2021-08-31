@@ -1,5 +1,8 @@
+import $ from "jquery";
+
 let pass = document.getElementById('pass');
 let btn = document.getElementById('btn');
+let copy = document.getElementById('copy')
 let tenCount = document.getElementById('ten');
 let thirtyCount = document.getElementById('thirty');
 let sixtyCount = document.getElementById('sixty');
@@ -67,9 +70,22 @@ function generatePass() {
     console.log('new password generated (Do not share your passwords!)')
 }
 
+//copy password to clipboard.
+function copyPass() {
+    var text = document.getElementById("pass").innerText;
+    var elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
+}
+
+// generate password onclick function
 btn.addEventListener('click', generatePass);
 
+//copy password onclick function
+copy.addEventListener('click', copyPass)
 
 //message to our fellow developers.
-
 console.log('Issues or questions? Contact me via Github')
