@@ -33,7 +33,7 @@
             </label>
         </div>
     </div>
-    <p class="disclaimer">We do not share or save any generated password, view our full <a target="_blank" href="github.com">sourcecode</a>.</p>
+    <p class="disclaimer">We do not share or save any generated password, view our full <a target="_blank" href="https://github.com/JelleStek/PassGenerator">sourcecode</a>.</p>
     <script src="{{asset('/js/checkbox.js')}}"></script>
     <script src="{{asset('/js/app.js')}}"></script>
 </body>
