@@ -26,7 +26,6 @@ body {
 }
 
 .password {
-    min-width: 400px;
     width: auto;
     padding: 13px 50px 13px 20px;
     border: 1px solid #000;
@@ -79,6 +78,10 @@ a.btn {
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 p.disclaimer {
     position: absolute;
@@ -89,10 +92,4 @@ p.disclaimer {
 .disclaimer a {
     color: #fff;
 }
-p.error-message {
-    color: red;
-    font-size: 14px;
-    height: 15px;
-    margin: 10px 0 -15px 0;
-    /*margin-bottom: -15px;*/
-}
+
