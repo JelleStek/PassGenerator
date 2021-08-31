@@ -36,5 +36,14 @@
     <p class="disclaimer">We do not share or save any generated password, view our full <a target="_blank" href="https://github.com/JelleStek/PassGenerator">sourcecode</a>.</p>
     <script src="{{asset('/js/checkbox.js')}}"></script>
     <script src="{{asset('/js/app.js')}}"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4V8FN26GP5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4V8FN26GP5');
+    </script>
 </body>
 </html>
